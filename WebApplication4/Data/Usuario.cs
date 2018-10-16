@@ -28,5 +28,6 @@ namespace WebApplication4.Data
         public string Bairro { get; set; }
         public string Cidade { get; set; }
         public string Uf { get; set; }
+
     }
 }
