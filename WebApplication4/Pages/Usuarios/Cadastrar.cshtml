@@ -6,7 +6,7 @@
 <div class="container">
     <h2>Cadastrar</h2>
 
-    <form onsubmit="return valida()">
+    <form onsubmit="return valida()" method="post">
         <div class="form-group">
             <label asp-for="usuario.Nome">Nome</label>
             <input type="text" asp-for="usuario.Nome" value="@Model.usuario.Nome" class="form-control" placeholder="Nome" />
